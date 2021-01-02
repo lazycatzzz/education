@@ -1,0 +1,43 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 1200px;
+  font-family: 'Microsoft YaHei', '微软雅黑';
+}
+button {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* element的样式要在全局修改 */
+.avatar-uploader .el-upload {
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.avatar-uploader .el-upload:hover {
+  border-color: #409eff;
+}
+/* 大容器 */
+.content-frame {
+  width: 1200px;
+  margin: 0 auto;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: "";
+}
+
+.clearfix:after {
+    clear: both
+}
